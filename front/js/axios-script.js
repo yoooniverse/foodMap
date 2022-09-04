@@ -43,7 +43,7 @@ async function getDataSet(category) {
 
 	const dataSet = await axios({
 		method: "get",
-		url: `http://localhost:3000/restaurants?category=${qs}`,
+		url: `http://3.36.204.107:3000/restaurants?category=${qs}`,
 		header: {},
 		data: {},
 	});
